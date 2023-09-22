@@ -1,13 +1,14 @@
 .icon-menu {
-	width: 60px;
-	height: 30px;
+	padding: 20px;
+	width: 80px;
+	height: 50px;
 	position: relative;
 	z-index: 50;
 
 	&::after,
 	&::before,
 	& span {
-		width: 100%;
+		width: 80%;
 		height: 3px;
 		background-color: #fff;
 		position: absolute;
@@ -21,11 +22,11 @@
 	}
 
 	&::before {
-		top: 0;
+		top: 5px;
 	}
 
 	&::after {
-		bottom: 0;
+		bottom: 5px;
 	}
 
 	& span {
